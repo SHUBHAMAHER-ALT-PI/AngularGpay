@@ -1,0 +1,215 @@
+
+<div class="main-container">
+    <div class='icon-main'>
+
+      <div routerLink="/scan">
+        <span class="material-icons">
+            qr_code_scanner
+            </span>
+        <p class="icon-name">
+          Scan any QR Pay
+        </p>
+      </div>
+
+      <div routerLink="/contact">
+        <span class="material-icons">
+            perm_contact_calendar
+            </span>
+        <p class="icon-name">
+          Pay Contact
+        </p>
+      </div>
+      <div routerLink="/phonePay">
+        <span class="material-icons">
+            send_to_mobile
+            </span>
+        <p class="icon-name">
+          Pay Phone Number
+        </p>
+      </div>
+      <div routerLink="/BankTrasfer">
+        <span class="material-icons">
+            paid
+            </span>
+        <p class="icon-name">
+          Bank Transfer
+        </p>
+      </div>
+      <div routerLink="/payUPI">
+        <span class="material-icons">
+            currency_rupee
+            </span>
+
+        <p class="icon-name">
+          Pay to UPI ID
+        </p>
+      </div>
+      <div routerLink="/selfTransfer">
+        <span class="material-icons">
+            camera_front
+            </span>
+            
+        <p class="icon-name">
+          Self Transfer
+        </p>
+      </div>
+
+      <div>
+        <span class="material-icons">
+            receipt_long
+            </span>
+        <p class="icon-name">
+          Pay bills
+        </p>
+      </div>
+      <div>
+        <span class="material-icons">
+            charging_station
+            </span>
+
+        <p class="icon-name">
+          Mobile Recharge
+        </p>
+      </div>
+
+
+    </div>
+    <div>
+      <p class="heading-name"> People</p>
+      <div class="peopleRow">
+        <div *ngFor="let ele of user" class="people-itm">
+            <img src={{ele.img}} />
+            <p>{{ele.name}}</p>
+        </div>
+      </div>
+    </div>
+    <div>
+        <div class="business-main"> <p class="heading-name">Bussiness</p> <p class="bussiness-button"><span class="material-icons">
+            local_mall
+            </span> Explore </p></div>
+        <div class="businessRow">
+            <div *ngFor="let ele of bussiness" class="people-itm">
+                <img src={{ele.img}} />
+                <p>{{ele.name}}</p>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="heading-name">Bills Recharge and More</p>
+        <div class="billRow">
+            <div *ngFor="let ele of bill" class="people-itm">
+                <img src={{ele.img}} />
+                <p>{{ele.name}}</p>
+            </div>
+        </div>
+        <p class="heading-name">Also Try adding </p>
+        <div class='tryadding-main'>
+            <div class="TryAdding">
+                <div class="icon-try">
+                    <span class="material-icons">
+                        tv
+                        </span>
+                    <p>DTH/ Cable TV</p>
+                </div>
+                <div class="icon-try">
+                    <span class="material-icons">
+                        emoji_objects
+                        </span>
+                    <p>Electricity</p>
+                </div>
+                <div class="icon-try">
+                    <span class="material-icons">
+                        phone_iphone
+                        </span>
+                    <p>PostPaid Mobile</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="more-btn-main">
+        
+                <button class='more-btn'>See All</button>
+            
+        </div>
+    </div>
+    <div class='promotion' >
+        <p class="heading-name"> Promotion</p>
+        <div class='promotionRow'>
+            <div *ngFor="let ele of promotion" class="people-itm">
+                <img src={{ele.img}} />
+                <p>{{ele.name}}</p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div class="upiId-main">
+    
+    <!-- <UPIID/> -->
+    <div class="UPIID">
+        <div class="UPIID-1">
+            <!-- <PaidIcon  class='paidIcon'/> -->
+            <span class="material-icons paidIcon">
+                paid
+                </span>
+            <div class="UPIID-2" routerLink="/UPI">
+                <div>UPI ID
+
+                </div>
+                <div class="Gmail">ahers247@gmail.com</div>
+            </div>
+        </div>
+
+        <div class="next"><span class="material-icons">
+            arrow_forward_ios
+            </span></div>
+    </div>
+    
+    
+    <!-- <TransationHistroy/> -->
+    <div class="transition-hist">
+        <div class="transition-hist-1">
+            <!-- <HistoryIcon  className='transition-hist-paidIcon'/> -->
+            <span class="material-icons transition-hist-paidIcon">
+                history
+                </span>
+            <div class="transition-hist-2">
+                <div>Show Transation Histroy
+
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="next"><span class="material-icons">
+            arrow_forward_ios
+            </span></div>
+    </div>
+    <!-- <CheckBalence/> -->
+    <div class="CheckBalence">
+        <div class="CheckBalence-1">
+            <!-- <AccountBalanceIcon  className='CheckBalence-paidIcon'/> -->
+            <span class="material-icons CheckBalence-paidIcon">
+                account_balance
+                </span>
+            <div class="CheckBalence-2">
+                <div>Check Bank Balance
+    
+                </div>
+                
+            </div>
+        </div>
+    
+        <div class="next"> <span class="material-icons">
+            arrow_forward_ios
+            </span></div>
+    </div>
+    </div>
+    <div class="imgAddress">
+      
+      <img src="https://paisawasooldeal.in/wp-content/uploads/2022/02/Google-Pay-Referral-Code-2.webp" />
+     
+    </div>
+
+  </div>

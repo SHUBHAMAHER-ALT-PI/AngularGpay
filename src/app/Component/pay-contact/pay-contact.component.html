@@ -1,0 +1,16 @@
+
+<div class='main-paytoContact'>
+    <!-- <SearchBar/> -->
+    <app-search-bar></app-search-bar>
+    <div class="all-itm">
+   
+            <div *ngFor="let ele of contact" class="itm-row">
+            <img src={{ele.img}}/>
+            <p>{{ele.name}}</p>
+            </div>
+      
+    </div>
+    <div>All People</div>
+<!-- <ContactList/> -->
+<app-contact-list></app-contact-list>
+</div>

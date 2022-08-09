@@ -1,0 +1,211 @@
+.SearchBar_Logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between ;
+    
+    
+}
+.main-container{
+    background-color: white;
+   min-height: 100vh;
+    margin-top: 150px;
+    padding: 3%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.icon-main{
+
+    
+    text-align: center;
+   
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    /* height: 100vh; */
+}
+.icon-name{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 10px;
+    
+    /* max-width: 0%; */
+}
+.peopleRow{
+    align-items: center;
+    text-align: center;
+   
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+}
+.business-main{
+    display: flex;
+    justify-content: space-between;
+}
+.bussiness-button{
+    display: flex;
+    padding: 5px;
+    /* font-size: 10px; */
+    background-color: aqua;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.businessRow{
+    align-items: center;
+    text-align: center;
+   
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+
+}
+.billRow{
+    align-items: center;
+    text-align: center;
+   
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    
+}
+.tryadding{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+}
+.promotionRow{
+    align-items: center;
+    text-align: center;
+   
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+
+}
+.imgAddress img{
+    width: 100%;
+    margin-top: 20px;
+}
+.upiId-main a{
+    text-decoration: none;
+    color: black;
+}
+.people-itm{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.people-itm img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    
+}
+.people-itm p{
+    font-size: 10px;
+}
+.heading-name{
+    margin-left: 20px;
+}
+.icon-try{
+    background-color: rgb(235, 221, 221);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+.icon-try p{
+    font-size: 10px;
+}
+.TryAdding{
+    text-align: center;
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+}
+.more-btn-main{
+    text-align: center;
+    margin-top: 10px;
+}
+.more-btn{
+    width:auto;
+    padding: 5px;
+    align-self: center;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 10px;
+    color: blue;
+    background-color: transparent;
+    border: 1px solid blue;
+
+}
+
+
+
+.transition-hist{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.transition-hist-1{
+    display: flex;
+}
+.transition-hist-2{
+    margin-left: 20px;
+    display: block;
+}
+
+
+.UPIID{
+    margin-top: 15px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.UPIID a{
+    text-decoration: none;
+}
+.next{
+    margin-top: 8px;
+  
+}
+.UPIID-1{
+    display: flex;
+}
+.UPIID-2{
+    margin-left: 20px;
+    display: block;
+}
+.paidIcon{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+
+.CheckBalence{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.CheckBalence-1{
+    display: flex;
+}
+.CheckBalence-2{
+    margin-left: 20px;
+    display: block;
+}
+
+

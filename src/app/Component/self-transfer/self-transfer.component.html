@@ -1,0 +1,45 @@
+<div class="SelfTransfer">
+    <div class="SelfTransfer-top-dot-back">
+ <!-- <ArrowBackIcon/>
+<h4>Self Tranfer</h4>
+ <MoreVertIcon/> -->
+ <span class="material-icons">
+    arrow_back
+</span>
+
+<h4>Self Tranfer</h4>
+  <!-- <MoreVertIcon/> -->
+  <span class="material-icons">
+    more_vert
+    </span>
+
+</div>
+<div class='SelfTransfer-body'>
+   <p>Manage Your money better by adding another account to make self traansfers</p>
+
+   
+           <div class='Bank-details-div' *ngFor="let bank of banks">
+               <div class="Bank-details-div-img">
+                   <img src={{bank.img}}/>
+               </div>
+               <div class="Bank-details-div-details">
+                   <div>{{bank.name}} ****{{bank.acno}}</div>
+                   <p>{{bank.accountType}}</p>
+
+               </div>
+           </div>
+       
+<div class='add-Bank-details-div'>
+               <div class="add-Bank-details-div-img">
+                   <!-- <AccountBalanceIcon className='add-Bank-details-div-img1'/> -->
+                   <span class="material-icons add-Bank-details-div-img1">
+                    account_balance
+                    </span>
+               </div>
+               <div class="add-Bank-details-div-details">
+                   Add Bank Account
+
+               </div>
+           </div>
+</div>
+</div>

@@ -1,0 +1,83 @@
+<!-- 
+    <div className="PayBills">
+        <div className="PayBill-top-dot-back">
+            <span class="material-icons">
+                arrow_back
+            </span>
+    <input type="text" className='input' placeholder='Recipient Name'/>
+    <span class="material-icons">
+        more_vert
+        </span>
+
+  </div>
+  <div className="your-check-list">
+    <div className="your-check-list-name">
+        <div>Your Checklist ({ReachareUser.length})</div>
+        <div className="addNew"> Add New </div>
+    </div>
+    {ReachareUser.map((data,ind)=>{
+      if(ind<4){
+        return (
+            <ReachargeUser ReachargeUser={data}/>
+        )
+      }
+    })}
+    <div className="ReachargeUser-each" *ngFor="let item of const ReachareUser">
+        <img src={ReachargeUser.img} alt={ReachargeUser.title} />
+        <div className='reacharge-user-name-mono'><div className="ReachargeUser-name"><strong>{ReachargeUser.name}</strong></div>
+        <p>Mobile Recharge</p>
+        <div>+91 {ReachargeUser.mono}</div>
+        </div>
+    </div>
+    <button type='submit' className='view-More-btn-check-list'>View All</button>
+  </div>
+  <div className='payment-categories'>
+    <p>Payment categories</p>
+   <div className='payment-categories-list'>
+    {
+        reacharge.map((data,ind)=>{
+            if(ind<3){
+                return(
+                    <PaymentCategories data={data}/>
+                )
+            }
+
+        })
+        
+    }
+    {
+        utilityBills.map((data,ind)=>{
+            if(ind<3){
+                return(
+                    <PaymentCategories data={data}/>
+                )
+            }
+        })
+    }
+   
+   {
+        FinanceAndTax.map((data,ind)=>{
+            if(ind<3){
+                return(
+                    <PaymentCategories data={data}/>
+                )
+            }
+        })
+    }
+   </div>
+   <button type='submit' className='view-More-btn-check-list'>View All</button>
+  </div>
+  <div className="suggestForYou">
+    <div>Suggest For You</div>
+    <div className="suggestForYou-list">
+        {
+            SuggestForYouitm.map((data,ind)=>{
+                return(
+                    <SuggestForYou data={data}/>
+                )
+            })
+        }
+        
+    </div>
+  </div>
+    </div> -->

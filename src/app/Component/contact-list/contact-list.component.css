@@ -1,0 +1,14 @@
+.contact-list-itm{
+    display: flex;
+    margin-top: 20px;
+
+}
+.contact-list-itm-icon img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 6px;
+}
+.contact-name{
+    margin-left: 30px;
+}
